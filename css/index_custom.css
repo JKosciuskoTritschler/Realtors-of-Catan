@@ -1,82 +1,172 @@
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-.catan-hex-background{
-	position: fixed;
-	z-index: -1;
-	padding: 0px;
-	margin: 0px;
-	top: 0;
-}
+/*Jumbotron, col and button CSS*/
 .jumbotron {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-top: 420px;
-	margin-bottom: 420px;
-	background-color: #333;
+	background-color: white;
+	height: 600px;
+	padding: 50px;
 }
-.center-align {
+.col-md-6 {
+	height: 500px;
+}
+#resume, #resume .col-md-6{
+	height: 700px;
+}
+button {
+	background-color: white;
+	border: none;
+}
+button:active {
+	border: none;
+}
+.col-md-6 p {
+	padding-top: 120px;
+}
+/*Background Images*/
+.background-image, .background-image img {
+	width: 100%;
+}
+.background-image p {
 	text-align: center;
 }
-.center-align img:hover {
-	opacity: .7;
+#traditional-background {
+	background-image: url(github.com/jkosciuskotritschler.io/images/traditional-background.jpg);
+	background-repeat: no-repeat;
 }
-.top-nav i {
-  color: black;
-  position: fixed;
-  left: 80%;
-  top: 91%;
-  z-index: +3;
+#story-time .col-md-6 p {
+	padding-top: 0px;
 }
-#navbar li {
-	display: inline-block;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 10px;
-	float: right;
-	font-size: 24px;
+#portrait p{
+	text-align: center;
 }
-#navbar a {
-	color: forestgreen;
-	font-family: 'Abril Fatface';
+/* Hover Effects for Images and buttons*/ 
+.story-time-button {
+	position: relative;
+	z-index: +9;
 }
-#navbar a:hover {
-	text-decoration: none;
-	opacity: .8;
+.story-time-button img {
+	position: relative;
+	z-index: +10;
+	left: -130px;
 }
-.navbar-brand {
-	font-size: 28px;
-	font-family: 'Abril Fatface';
+.story-time-button:hover img {
+	opacity: 0;
 }
-.navbar-brand:hover {
-	opacity: .8;
-	text-decoration: none;
+.portrait-hover {
+	position: relative;
+	left: -400px;
+	z-index: +9;
 }
-h1 {
-	font-family: 'Cinzel Decorative';
+.portrait-sketch {
+	position: relative;
+	z-index: +10;
 }
-.container p, a {
-	font-family: 'Arvo';
+.portrait-sketch:hover {
+	opacity: 0;
 }
-.container {
-	color: forestgreen;
+.graphic-hover {
+	position: relative;
+	top: -300px;
+	left: 0px;
+	z-index: +9;
 }
-footer a {
-	font-family: 'Abril Fatface';
-	font-size: 30px;
-	color: black;
+.graphic-button {
+	position: relative;
+	z-index: +9;
 }
-footer li {
-	display: inline;
+.graphic-button img {
+	position: relative;
+	z-index: +10;
+	left: -110px;
 }
-.modal-content h3 {
-	font-family: 'Arvo';
+.graphic-button:hover img {
+	opacity: 0;
 }
-.left {
-	float: left;
+.graphic-sketch {
+	position: relative;
+	top: 100px;
+	left: 0px;
+	z-index: +10;
 }
-.right {
-	float: right;
+.graphic-sketch:hover {
+	opacity: 0;
+}
+.theatrical-button {
+	position: relative;
+	z-index: +9;
+}
+.theatrical-button img {
+	position: relative;
+	z-index: +10;
+	left: -130px;
+}
+.theatrical-button:hover img {
+	opacity: 0;
+}
+.theatrical-hover {
+	position: relative;
+	top: -300px;
+	left: 0px;
+	z-index: +9;
+}
+.theatrical-sketch {
+	position: relative;
+	top: 100px;
+	left: 0px;
+	z-index: +10;
+}
+.theatrical-sketch:hover {
+	opacity: 0;
+}
+.traditional-button {
+	position: relative;
+	z-index: +9;
+}
+.traditional-button img {
+	position: relative;
+	z-index: +10;
+	left: -110px;
+}
+.traditional-button:hover img {
+	opacity: 0;
+}
+.traditional-hover {
+	position: relative;
+	top: -300px;
+	left: 0px;
+	z-index: +9;
+}
+.traditional-sketch {
+	position: relative;
+	top: 100px;
+	left: 0px;
+	z-index: +10;
+}
+.traditional-sketch:hover {
+	opacity: 0;
+}
+.resume-button {
+	position: relative;
+	z-index: +9;
+}
+.resume-button img {
+	position: relative;
+	z-index: +10;
+	left: -130px;
+}
+.resume-button:hover img {
+	opacity: 0;
+}
+.resume-hover {
+	position: relative;
+	top: -400px;
+	left: 0px;
+	z-index: +9;
+}
+.resume-sketch {
+	position: relative;
+	top: 100px;
+	left: 0px;
+	z-index: +10;
+}
+.resume-sketch:hover {
+	opacity: 0;
 }

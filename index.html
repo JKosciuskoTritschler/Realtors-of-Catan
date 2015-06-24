@@ -8,7 +8,7 @@
     <meta name="description" content="A Mock Website for My Portfolio">
     <meta name="author" content="Joe Kosciusko Tritschler">
 
-    <title>Realtors of Catan</title>
+    <title>Just Joe</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,99 +31,70 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Realtors of Catan</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-        <ul>
-          <li>
-            <p><a href="buy.html">Buy</a></p>
-          </li>
-          <li>
-            <p><a href="finance.html">Finance</a></p>
-          </li>
-          <li>
-            <p><a href="upgrade.html">Upgrade</a></p>
-          </li>
-        </ul>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="backround-image">
-      <img  class="catan-hex-background" src="images/catan-background.jpg">
+    <header>
+      <div class="backround-image">
+        <p><img id="top-image" class="background-image" src="images/top-image.jpg"></p>
+      </div>
+    </header>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div id="portrait"><p><img class="portrait-sketch" src="images/portrait.jpg"><img class="portrait-hover" src="images/portrait-hover.png"><br>Just Joe</p></div>
+      </div>
+    </div>
+
+
+    <div id="story-time" class="jumbotron">
+      <div class="container">  
+        <div>
+          <div class="col-md-6"><img src="images/design-book.jpg"></div>
+          <div class="col-md-6"><p>Design is about telling stories and what better place to start then my own? From the woods of rural Massachusetts to the College of William and Mary to the stunning scenery that is Boulder, hear about my adventures as I hone my design skills and process! Or keep scrolling to skip the story and see some of my work.<br><a href="my-story.html"><button class="story-time-button" >Story Time >><img src="images/story-time.jpg"></button></a></p></div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="jumbotron">
+      <div class="container">
+        <div id="graphic-design">
+          <div class="col-md-6"><img class="graphic-sketch" src="images/graphic-design.jpg"><img class="graphic-hover" src="images/graphic-hover.jpg"></div>
+          <div class="col-md-6"><p>Working on a variety of projects, from consulting for a technology start-up to producing cover art for a publishing company, has provided myriad challenges and rewards and proved to be an excellent way to expand my experience. The best part was getting to work closely with clients and the passion we brought to the projects.<br><a href="graphic-design.html"><button class="graphic-button" >Explore >><img src="images/explore-three.jpg"></button></a></p></div>
+        </div>
+      </div>
     </div>
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Realtors of Catan</h1>
-        <p>The island of Catan's terrain ranges from high peaks to lush valleys and beautiful coasts. It was discovered undeveloped and unpopulated. However, already investors are flocking to its shores and due to stringent zoning restrictions, only so many properties will <em>ever</em> become available! Let us help you find a piece of paradise now!</p>
-      </div>
-    </div>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>What we offer</h1>
-        <div class="col-md-4">
-          <h3><a href="buy.html">Buy</a></h3>
-          <p>We'll help you find the perfect spot to settle or purchase an existing structure.</p>
-        </div>
-        <div class="col-md-4">
-          <h3><a href="finance.html">Finance</a></h3>
-          <p>We offer great exchange rates on materials and loans to help you secure your dream real estate.
-        </div>
-        <div class="col-md-4">
-          <h3><a href="upgrade.html">Upgrade</a></h3>
-          <p>Already own a slice of Catan? We can help you improve your lot!</p>
+        <div id="theatrical-design">
+          <div class="col-md-6"><img class="theatrical-sketch" src="images/theatrical-design.jpg"><img class="theatrical-hover" src="images/theatrical-hover.jpg"></div>
+          <div class="col-md-6"><p>From a script and the divergent ideas of directors and designers to a unified world in full-scale brillance, theatrical design is the ultimate interactive design arena! An adrenaline-fueled dash to become an expert on everything and juggling a multitude of requirements, all while fighting against the hard deadline of opening night was an ever-exciting design challenge.<br><a href="theatrical-design.html"><button class="theatrical-button">Explore >><img src="images/explore-two.jpg"></button></a></p></div>
         </div>
       </div>
     </div>
 
     <div class="jumbotron">
       <div class="container">
-        <h1 class="center-align">Meet our intrepid team</h1>
-        <p class="center-align"><a href="realtors.html"><img src="images/portrait-holder.png"></a></p>
-      </div>
-    </div>
-    
-    <div class="top-nav">
-      <div class="container">
-        <a href="#top"><i class="fa fa-compass fa-4x"></i></a>
+        <div id="traditional-art">
+          <div class="col-md-6"><img class="traditional-sketch" src="images/traditional-art.jpg"><img class="traditional-hover" src="images/traditional-hover.jpg"></div>
+          <div class="col-md-6"><p>I can't imagine ever creating realistic worlds on stage or helping secure venture capital as Head of Design without first learning traditional art. I may not have been a Picasso or a Michaelangelo when I started, but being able to share concepts pictorially may be the most valuable thing I have learned. In fact, without the ability to sketch, my traveling partner would never have recieved the medical treatment she needed in Hungary.<br><a href="traditional-art.html"><button class="traditional-button">Explore >><img src="images/explore-one.jpg"></button></a></p></div>
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      <hr>
-      <footer class="blog-footer">
-        <ul>
-          <li class="left"><a role="button" data-toggle="modal" data-target="#contactModal">Contact Us</a></li>
-          <li class="right"><a role="button" data-toggle="modal" data-target="#legalModal">Legal Disclaimer</a></li>
-        </ul>
-        <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-                <iframe src="https://docs.google.com/forms/d/187MgCB3LQ4RiQwvxBJ8DA9-soLdJFgK4EM-UyEa3s2g/viewform?embedded=true" width="760" height="575" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-            </div>
-          </div>
+    <div  id="resume" class="jumbotron">
+      <div class="container">
+        <div>
+          <div class="col-md-6"><img class="resume-sketch" src="images/resume-sketch.jpg"><img class="resume-hover" src="images/resume-hover.jpg"></div>
+          <div class="col-md-6"><p>Take a look at my resume or <a href="files/resume-joe-k-t.pdf" download>download</a> it.<br><a href="files/resume-joe-k-t.pdf"><button class="resume-button">Resume >><img src="images/resume-btn.jpg"></button></a></p></div>
         </div>
-        <div class="modal fade" id="legalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <h3>Note About Rights to Catan:<br>Catan and it's expansions are amazingly well-crafted games developed by Klaus Teuber and his son. I do not own any of the rights to any part of the games and do not wish to give the impression otherwise. I simply love playing them and thought they would be fun a concept to make a website for my portfolio. More info on the games may be found on the official website: <a href="http://www.catan.com/">www.catan.com</a>.</h3>
-            </div>
-          </div>
-        </div>   
-      </footer>
-    </div> <!-- /container -->
+      </div>
+    </div>
+
+    <footer>
+      <div class="backround-image">
+        <p><img id="bottom-image" class="background-image" src="images/bottom-image.jpg"></p>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
@@ -131,6 +102,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/hover.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>
